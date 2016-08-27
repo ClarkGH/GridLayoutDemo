@@ -26,8 +26,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button1" />
+            android:text="Hello"
+            android:id="@+id/button0"
+            android:onClick="sayPhrase" />
 
         <Button
             android:layout_width="wrap_content"
@@ -37,8 +38,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button2" />
+            android:text="How are you?"
+            android:id="@+id/button1"
+            android:onClick="sayPhrase" />
 
         <Button
             android:layout_width="wrap_content"
@@ -48,8 +50,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button3" />
+            android:text="MY NAME IS"
+            android:id="@+id/button2"
+            android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,8 +61,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button4" />
+            android:text="PLEASE"
+            android:id="@+id/button3"
+            android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,8 +72,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button5" />
+            android:text="WELCOME"
+            android:id="@+id/button4"
+            android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,8 +83,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button6" />
+            android:text="GOOD EVENING"
+            android:id="@+id/button5"
+            android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,8 +94,9 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button7" />
+            android:text="I LIVE IN"
+            android:id="@+id/button6"
+            android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -98,7 +105,8 @@
             android:gravity="fill"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="New Button"
-            android:id="@+id/button8" />
+            android:text="DO YOU SPEAK ENGLISH"
+            android:id="@+id/button7"
+            android:onClick="sayPhrase" />
     </GridLayout>
 </RelativeLayout>
