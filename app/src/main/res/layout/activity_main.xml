@@ -27,7 +27,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Hello"
-            android:id="@+id/button0"
+            android:id="@+id/hello"
             android:onClick="sayPhrase" />
 
         <Button
@@ -39,7 +39,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="How are you?"
-            android:id="@+id/button1"
+            android:id="@+id/howareyou"
             android:onClick="sayPhrase" />
 
         <Button
@@ -51,7 +51,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="MY NAME IS"
-            android:id="@+id/button2"
+            android:id="@+id/mynameis"
             android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="PLEASE"
-            android:id="@+id/button3"
+            android:id="@+id/please"
             android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="WELCOME"
-            android:id="@+id/button4"
+            android:id="@+id/welcome"
             android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="GOOD EVENING"
-            android:id="@+id/button5"
+            android:id="@+id/goodevening"
             android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="I LIVE IN"
-            android:id="@+id/button6"
+            android:id="@+id/ilivein"
             android:onClick="sayPhrase" />
         <Button
             android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="DO YOU SPEAK ENGLISH"
-            android:id="@+id/button7"
+            android:id="@+id/doyouspeakenglish"
             android:onClick="sayPhrase" />
     </GridLayout>
 </RelativeLayout>
